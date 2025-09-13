@@ -35,6 +35,8 @@ header nav a {
     margin: 0 30px;
     color: var(--color);
     font-size: large;
+    position: fixed;
+    z-index: 0;
 }
 
 .tab {
@@ -427,3 +429,4 @@ header nav a {
     }
 
 }
+
