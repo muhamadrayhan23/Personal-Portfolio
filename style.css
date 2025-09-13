@@ -26,7 +26,8 @@ nav a:hover {
 header {
     width: 100%;
     position: fixed;
-    z-index: 100;
+    z-index: 0;
+    top: 0;
     text-align: center;
     padding-top: 10px;
 }
@@ -427,5 +428,6 @@ header nav a {
     }
 
 }
+
 
 
