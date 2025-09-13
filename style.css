@@ -23,11 +23,16 @@ nav a:hover {
     width: 0;
 }
 
+nav {
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
 header {
     width: 100%;
     position: fixed;
-    z-index: 0;
-    top: 0;
+    z-index: 100;
     text-align: center;
     padding-top: 10px;
 }
@@ -428,6 +433,7 @@ header nav a {
     }
 
 }
+
 
 
 
