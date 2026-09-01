@@ -135,8 +135,8 @@
                     class="px-4 py-2 rounded-xl text-sm font-medium transition-all text-slate-400 hover:text-white border border-transparent">Profil</a>
                 <a href="#experience" id="nav-experience"
                     class="px-4 py-2 rounded-xl text-sm font-medium transition-all text-slate-400 hover:text-white border border-transparent">Pengalaman</a>
-                <a href="#skills" id="nav-skills"
-                    class="px-4 py-2 rounded-xl text-sm font-medium transition-all text-slate-400 hover:text-white border border-transparent">Keahlian</a>
+                <a href="#tools" id="nav-tools"
+                    class="px-4 py-2 rounded-xl text-sm font-medium transition-all text-slate-400 hover:text-white border border-transparent">Tools</a>
                 <a href="#projects" id="nav-projects"
                     class="px-4 py-2 rounded-xl text-sm font-medium transition-all text-slate-400 hover:text-white border border-transparent">Proyek</a>
                 <a href="#contact" id="nav-contact"
@@ -161,9 +161,9 @@
                 class="text-left px-4 py-3 rounded-xl text-sm font-medium flex items-center gap-3 text-slate-400 hover:bg-slate-800/50 hover:text-white">
                 <i class="fa-solid fa-briefcase text-brand-accentCyan"></i>Pengalaman
             </a>
-            <a href="#skills" onclick="toggleMobileMenu()"
+            <a href="#tools" onclick="toggleMobileMenu()"
                 class="text-left px-4 py-3 rounded-xl text-sm font-medium flex items-center gap-3 text-slate-400 hover:bg-slate-800/50 hover:text-white">
-                <i class="fa-solid fa-gears text-yellow-500"></i>Keahlian Teknis
+                <i class="fa-solid fa-gears text-yellow-500"></i>Tools
             </a>
             <a href="#projects" onclick="toggleMobileMenu()"
                 class="text-left px-4 py-3 rounded-xl text-sm font-medium flex items-center gap-3 text-slate-400 hover:bg-slate-800/50 hover:text-white">
@@ -242,7 +242,7 @@
 
         <!-- 2. EXPERIENCE SECTION -->
         <section id="experience" class="scroll-mt-24">
-            <div class="max-w-4xl mx-auto space-y-12">
+            <div class="max-w-7xl mx-auto space-y-12">
 
                 <!-- Section Header (Centered) -->
                 <div class="text-center space-y-2">
@@ -323,7 +323,7 @@
         </section>
 
         <!-- 3. SKILLS SECTION -->
-        <section id="skills" class="scroll-mt-24">
+        <section id="tools" class="scroll-mt-24">
             <div class="space-y-12">
 
                 <!-- Section Header -->
@@ -331,145 +331,147 @@
                     <div
                         class="inline-flex items-center gap-2 bg-yellow-500/10 border border-yellow-500/30 px-3 py-1 rounded-full">
                         <i class="fa-solid fa-gears text-yellow-500 text-xs"></i>
-                        <span class="text-[10px] font-bold text-yellow-400 tracking-widest uppercase">Garda Depan
-                            Teknologi</span>
+                        <span class="text-[10px] font-bold text-yellow-400 tracking-widest uppercase">Tools Yang
+                            Digunakan</span>
                     </div>
                     <h2 class="font-display font-bold text-3xl text-white">Keahlian & Tools Teknis</h2>
                     <p class="text-sm text-brand-lightText max-w-xl mx-auto">Kombinasi bahasa pemrograman, library
-                        modern, dan perangkat lunak desain yang saya kuasai.</p>
+                        modern, dan perangkat lunak yang biasa saya gunakan.</p>
                 </div>
 
-                <!-- Skills Category Grid -->
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Tech Stack & Tools Container -->
+                <div class="space-y-8">
 
-                    <!-- 1. Pemrograman Web & Framework -->
-                    <div
-                        class="bg-brand-cardBg/40 border border-brand-border hover:border-brand-accent/30 p-6 rounded-2xl shadow-xl transition-all">
-                        <div class="flex items-center gap-3 mb-6">
+                    <!-- Sub-section 1: Tech Stack -->
+                    <div class="space-y-4">
+                        <h3 class="font-display font-bold text-xl text-white">Tech Stack</h3>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+
+                            <!-- ReactJS -->
                             <div
-                                class="w-10 h-10 rounded-xl bg-brand-accent/15 flex items-center justify-center text-brand-accent">
-                                <i class="fa-solid fa-code text-lg"></i>
+                                class="bg-brand-cardBg/40 border border-brand-border hover:border-brand-accent/30 p-5 rounded-2xl shadow-xl transition-all group flex justify-between items-start">
+                                <div class="space-y-1">
+                                    <h4
+                                        class="font-bold text-white text-base group-hover:text-brand-accent transition-colors">
+                                        ReactJS</h4>
+                                    <p class="text-xs text-brand-lightText">Untuk membangun antarmuka pengguna (UI) yang
+                                        interaktif</p>
+                                </div>
+                                <i
+                                    class="fa-solid fa-arrow-up-right-from-square text-xs text-brand-lightText group-hover:text-white transition-colors"></i>
                             </div>
-                            <h3 class="font-display font-bold text-white text-base">Web & Frameworks</h3>
-                        </div>
 
-                        <!-- Mini skill items with progress bar-like glows -->
-                        <div class="space-y-4">
-                            <div class="space-y-1">
-                                <div class="flex justify-between text-xs font-semibold">
-                                    <span>ReactJS</span>
-                                    <span class="text-brand-accent">Intermediate</span>
+                            <!-- Laravel -->
+                            <div
+                                class="bg-brand-cardBg/40 border border-brand-border hover:border-brand-accent/30 p-5 rounded-2xl shadow-xl transition-all group flex justify-between items-start">
+                                <div class="space-y-1">
+                                    <h4
+                                        class="font-bold text-white text-base group-hover:text-brand-accent transition-colors">
+                                        Laravel</h4>
+                                    <p class="text-xs text-brand-lightText">Framework PHP untuk pengembangan aplikasi
+                                        web</p>
                                 </div>
-                                <div class="w-full bg-slate-900 h-1.5 rounded-full overflow-hidden">
-                                    <div class="bg-brand-accent h-full" style="width: 75%"></div>
-                                </div>
+                                <i
+                                    class="fa-solid fa-arrow-up-right-from-square text-xs text-brand-lightText group-hover:text-white transition-colors"></i>
                             </div>
-                            <div class="space-y-1">
-                                <div class="flex justify-between text-xs font-semibold">
-                                    <span>Laravel (PHP)</span>
-                                    <span class="text-brand-accent">Intermediate</span>
+
+                            <!-- Express JS -->
+                            <div
+                                class="bg-brand-cardBg/40 border border-brand-border hover:border-brand-accent/30 p-5 rounded-2xl shadow-xl transition-all group flex justify-between items-start">
+                                <div class="space-y-1">
+                                    <h4
+                                        class="font-bold text-white text-base group-hover:text-brand-accent transition-colors">
+                                        ExpressJS</h4>
+                                    <p class="text-xs text-brand-lightText">Framework backend web minimalis berbasis
+                                        Node.js</p>
                                 </div>
-                                <div class="w-full bg-slate-900 h-1.5 rounded-full overflow-hidden">
-                                    <div class="bg-brand-accent h-full" style="width: 75%"></div>
-                                </div>
+                                <i
+                                    class="fa-solid fa-arrow-up-right-from-square text-xs text-brand-lightText group-hover:text-white transition-colors"></i>
                             </div>
-                            <div class="space-y-1">
-                                <div class="flex justify-between text-xs font-semibold">
-                                    <span>Tailwind CSS & Bootstrap</span>
-                                    <span class="text-brand-accent">Intermediate</span>
+
+                            <!-- Tailwind CSS -->
+                            <div
+                                class="bg-brand-cardBg/40 border border-brand-border hover:border-brand-accent/30 p-5 rounded-2xl shadow-xl transition-all group flex justify-between items-start">
+                                <div class="space-y-1">
+                                    <h4
+                                        class="font-bold text-white text-base group-hover:text-brand-accent transition-colors">
+                                        Tailwind CSS</h4>
+                                    <p class="text-xs text-brand-lightText">Framework CSS utility-first untuk desain
+                                        responsif</p>
                                 </div>
-                                <div class="w-full bg-slate-900 h-1.5 rounded-full overflow-hidden">
-                                    <div class="bg-brand-accent h-full" style="width: 75%"></div>
-                                </div>
+                                <i
+                                    class="fa-solid fa-arrow-up-right-from-square text-xs text-brand-lightText group-hover:text-white transition-colors"></i>
                             </div>
+
+                            <!-- Bootstrap CSS -->
+                            <div
+                                class="bg-brand-cardBg/40 border border-brand-border hover:border-brand-accent/30 p-5 rounded-2xl shadow-xl transition-all group flex justify-between items-start">
+                                <div class="space-y-1">
+                                    <h4
+                                        class="font-bold text-white text-base group-hover:text-brand-accent transition-colors">
+                                        Bootstrap CSS</h4>
+                                    <p class="text-xs text-brand-lightText">Framework komponen CSS untuk pembuatan
+                                        layout cepat</p>
+                                </div>
+                                <i
+                                    class="fa-solid fa-arrow-up-right-from-square text-xs text-brand-lightText group-hover:text-white transition-colors"></i>
+                            </div>
+
                         </div>
                     </div>
 
-                    <!-- 2. Database & Data Management -->
-                    <div
-                        class="bg-brand-cardBg/40 border border-brand-border hover:border-brand-accent/30 p-6 rounded-2xl shadow-xl transition-all">
-                        <div class="flex items-center gap-3 mb-6">
+                    <!-- Sub-section 2: Tools -->
+                    <div class="space-y-4 pt-4">
+                        <h3 class="font-display font-bold text-xl text-white">Tools</h3>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+
+                            <!-- VS Code -->
                             <div
-                                class="w-10 h-10 rounded-xl bg-brand-accentCyan/15 flex items-center justify-center text-brand-accentCyan">
-                                <i class="fa-solid fa-database text-lg"></i>
+                                class="bg-brand-cardBg/40 border border-brand-border hover:border-brand-accent/30 p-5 rounded-2xl shadow-xl transition-all group flex justify-between items-start">
+                                <div class="space-y-1">
+                                    <h4
+                                        class="font-bold text-white text-base group-hover:text-brand-accent transition-colors">
+                                        VS Code</h4>
+                                    <p class="text-xs text-brand-lightText">Code editor utama untuk pengembangan
+                                        perangkat lunak</p>
+                                </div>
+                                <i
+                                    class="fa-solid fa-arrow-up-right-from-square text-xs text-brand-lightText group-hover:text-white transition-colors"></i>
                             </div>
-                            <h3 class="font-display font-bold text-white text-base">Basis Data</h3>
-                        </div>
 
-                        <div class="space-y-4">
-                            <div class="space-y-1">
-                                <div class="flex justify-between text-xs font-semibold">
-                                    <span>MySQL</span>
-                                    <span class="text-brand-accentCyan">Intermediate</span>
-                                </div>
-                                <div class="w-full bg-slate-900 h-1.5 rounded-full overflow-hidden">
-                                    <div class="bg-brand-accentCyan h-full" style="width: 75%"></div>
-                                </div>
-                            </div>
-                            <div class="space-y-1">
-                                <div class="flex justify-between text-xs font-semibold">
-                                    <span>PostgreSQL</span>
-                                    <span class="text-brand-accentCyan">Intermediate</span>
-                                </div>
-                                <div class="w-full bg-slate-900 h-1.5 rounded-full overflow-hidden">
-                                    <div class="bg-brand-accentCyan h-full" style="width: 75%"></div>
-                                </div>
-                            </div>
-                            <div class="space-y-1">
-                                <div class="flex justify-between text-xs font-semibold">
-                                    <span>ExpressJS & Node.js</span>
-                                    <span class="text-brand-accentCyan">Intermediate</span>
-                                </div>
-                                <div class="w-full bg-slate-900 h-1.5 rounded-full overflow-hidden">
-                                    <div class="bg-brand-accentCyan h-full" style="width: 75%"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- 3. Desain, Tools & Version Control -->
-                    <div
-                        class="bg-brand-cardBg/40 border border-brand-border hover:border-brand-accent/30 p-6 rounded-2xl shadow-xl transition-all md:col-span-2 lg:col-span-1">
-                        <div class="flex items-center gap-3 mb-6">
+                            <!-- GitHub -->
                             <div
-                                class="w-10 h-10 rounded-xl bg-yellow-500/15 flex items-center justify-center text-yellow-500">
-                                <i class="fa-solid fa-wrench text-lg"></i>
+                                class="bg-brand-cardBg/40 border border-brand-border hover:border-brand-accent/30 p-5 rounded-2xl shadow-xl transition-all group flex justify-between items-start">
+                                <div class="space-y-1">
+                                    <h4
+                                        class="font-bold text-white text-base group-hover:text-brand-accent transition-colors">
+                                        GitHub</h4>
+                                    <p class="text-xs text-brand-lightText">Platform untuk kolaborasi kode dan version
+                                        control</p>
+                                </div>
+                                <i
+                                    class="fa-solid fa-arrow-up-right-from-square text-xs text-brand-lightText group-hover:text-white transition-colors"></i>
                             </div>
-                            <h3 class="font-display font-bold text-white text-base">Desain & Tools</h3>
-                        </div>
 
-                        <div class="space-y-4">
-                            <div class="space-y-1">
-                                <div class="flex justify-between text-xs font-semibold">
-                                    <span>UI/UX Design (Figma)</span>
-                                    <span class="text-yellow-500">Intermediate</span>
+                            <!-- Postman -->
+                            <div
+                                class="bg-brand-cardBg/40 border border-brand-border hover:border-brand-accent/30 p-5 rounded-2xl shadow-xl transition-all group flex justify-between items-start">
+                                <div class="space-y-1">
+                                    <h4
+                                        class="font-bold text-white text-base group-hover:text-brand-accent transition-colors">
+                                        Postman</h4>
+                                    <p class="text-xs text-brand-lightText">Perangkat lunak untuk pengujian dan
+                                        dokumentasi API</p>
                                 </div>
-                                <div class="w-full bg-slate-900 h-1.5 rounded-full overflow-hidden">
-                                    <div class="bg-yellow-500 h-full" style="width: 75%"></div>
-                                </div>
+                                <i
+                                    class="fa-solid fa-arrow-up-right-from-square text-xs text-brand-lightText group-hover:text-white transition-colors"></i>
                             </div>
-                            <div class="space-y-1">
-                                <div class="flex justify-between text-xs font-semibold">
-                                    <span>Git & GitHub (Version Control)</span>
-                                    <span class="text-yellow-500">Intermediate</span>
-                                </div>
-                                <div class="w-full bg-slate-900 h-1.5 rounded-full overflow-hidden">
-                                    <div class="bg-yellow-500 h-full" style="width: 75%"></div>
-                                </div>
-                            </div>
-                            <div class="space-y-1">
-                                <div class="flex justify-between text-xs font-semibold">
-                                    <span>Postman, NPM / Yarn</span>
-                                    <span class="text-yellow-500">Intermediate</span>
-                                </div>
-                                <div class="w-full bg-slate-900 h-1.5 rounded-full overflow-hidden">
-                                    <div class="bg-yellow-500 h-full" style="width: 75%"></div>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
 
                 </div>
+
             </div>
         </section>
 
@@ -497,6 +499,10 @@
                     <div
                         class="bg-brand-cardBg/60 border border-brand-border hover:border-brand-accent/40 rounded-3xl overflow-hidden shadow-2xl flex flex-col justify-between group transition-all duration-300">
                         <div class="p-6 space-y-4">
+                            <div class="overflow-hidden rounded-2xl border border-brand-border/50">
+                                <img src="img/flyg_spc.png" alt="Flying Space Landing Page"
+                                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                            </div>
                             <div class="flex items-center justify-between">
                                 <div class="flex items-center gap-2 text-xs text-brand-accent font-semibold">
                                     <i class="fa-solid fa-shirt"></i>
@@ -513,7 +519,6 @@
                                 dengan fokus pada katalog visual interaktif, tata letak produk responsif, dan performa
                                 pemuatan super cepat untuk kenyamanan berbelanja.
                             </p>
-
                             <!-- Badges -->
                             <div class="flex flex-wrap gap-2 pt-2">
                                 <span
@@ -526,7 +531,6 @@
                                     class="text-[10px] bg-slate-900 border border-brand-border text-slate-300 px-2.5 py-1 rounded-lg font-mono">Figma</span>
                             </div>
                         </div>
-
                         <!-- Bottom Action Link inside Project -->
                         <div
                             class="p-6 pt-0 border-brand-border/40 mt-4 flex items-center justify-between bg-slate-950/20">
@@ -538,28 +542,29 @@
                             </a>
                         </div>
                     </div>
-
-                    <!-- Proyek 2: Sila Jabar (Unggulan Utama) -->
+                    <!-- Proyek 2: Sila Jabar-->
                     <div
                         class="bg-brand-cardBg/60 border border-brand-border hover:border-brand-accent/40 rounded-3xl overflow-hidden shadow-2xl flex flex-col justify-between group transition-all duration-300">
                         <div class="p-6 space-y-4">
+                            <div class="overflow-hidden rounded-2xl border border-brand-border/50">
+                                <img src="img/sila_jabar.png" alt="Preview Sila Jabar"
+                                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                            </div>
                             <div class="flex items-center justify-between">
                                 <div class="flex items-center gap-2 text-xs text-brand-accentCyan font-semibold">
                                     <i class="fa-solid fa-chart-line"></i>
                                     <span>Demografi & Kesehatan</span>
                                 </div>
-                                <span
-                                    class="text-[10px] bg-brand-accentCyan/15 text-brand-accentCyan font-bold px-2 py-0.5 rounded">UNGGULAN</span>
                             </div>
                             <h3
                                 class="font-display font-bold text-xl text-white group-hover:text-brand-accentCyan transition-colors">
-                                Sila Jabar (Sistem Informasi Kelahiran)</h3>
+                                Sila Jabar (Sistem Informasi Kelahiran)
+                            </h3>
                             <p class="text-xs text-brand-lightText leading-relaxed">
                                 Portal interaktif data visualisasi tingkat kelahiran hidup bayi di provinsi Jawa Barat.
                                 Mengintegrasikan dashboard interaktif dari Google Looker Studio ke dalam template web
                                 responsif bertema terang yang ramah aksesibilitas.
                             </p>
-
                             <!-- Badges -->
                             <div class="flex flex-wrap gap-2 pt-2">
                                 <span
@@ -573,7 +578,6 @@
                                     CSS</span>
                             </div>
                         </div>
-
                         <div
                             class="p-6 pt-0 border-brand-border/40 mt-4 flex items-center justify-between bg-slate-950/20">
                             <span class="text-xs text-brand-lightText font-semibold">Status: Berjalan Online</span>
@@ -584,47 +588,14 @@
                             </a>
                         </div>
                     </div>
-
-                    <!-- Proyek 3: Tracking Invoice System -->
+                    <!-- Proyek 3: E-Commerce CMS -->
                     <div
                         class="bg-brand-cardBg/60 border border-brand-border hover:border-brand-accent/40 rounded-3xl overflow-hidden shadow-2xl flex flex-col justify-between group transition-all duration-300">
                         <div class="p-6 space-y-4">
-                            <div class="flex items-center gap-2 text-xs text-yellow-500 font-semibold">
-                                <i class="fa-solid fa-file-invoice-dollar"></i>
-                                <span>Administrasi Finansial</span>
+                            <div class="overflow-hidden rounded-2xl border border-brand-border/50">
+                                <img src="img/baros_coffee.png" alt="Baros Coffee E-Commerce CMS"
+                                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
                             </div>
-                            <h3
-                                class="font-display font-bold text-xl text-white group-hover:text-yellow-500 transition-colors">
-                                Web-Based Tracking Invoice</h3>
-                            <p class="text-xs text-brand-lightText leading-relaxed">
-                                Mentransformasi monitoring keuangan manual menjadi sistem digital terintegrasi.
-                                Menampilkan status invoice (Pending, Paid, Overdue) secara real-time dan fungsionalitas
-                                ekspor rekapan data secara otomatis ke format PDF/Excel.
-                            </p>
-
-                            <div class="flex flex-wrap gap-2 pt-2">
-                                <span
-                                    class="text-[10px] bg-slate-900 border border-brand-border text-slate-300 px-2.5 py-1 rounded-lg font-mono">ReactJS</span>
-                                <span
-                                    class="text-[10px] bg-slate-900 border border-brand-border text-slate-300 px-2.5 py-1 rounded-lg font-mono">ExpressJS</span>
-                                <span
-                                    class="text-[10px] bg-slate-900 border border-brand-border text-slate-300 px-2.5 py-1 rounded-lg font-mono">MySQL</span>
-                            </div>
-                        </div>
-
-                        <div
-                            class="p-6 pt-0 border-brand-border/40 mt-4 flex items-center justify-between bg-slate-950/20">
-                            <span class="text-xs text-brand-lightText font-semibold">Kategori: Proyek Internal
-                                Magang</span>
-                            <span class="text-xs text-slate-500 font-mono italic"><i
-                                    class="fa-solid fa-lock mr-1"></i>Internal System</span>
-                        </div>
-                    </div>
-
-                    <!-- Proyek 4: E-Commerce CMS -->
-                    <div
-                        class="bg-brand-cardBg/60 border border-brand-border hover:border-brand-accent/40 rounded-3xl overflow-hidden shadow-2xl flex flex-col justify-between group transition-all duration-300">
-                        <div class="p-6 space-y-4">
                             <div class="flex items-center gap-2 text-xs text-red-400 font-semibold">
                                 <i class="fa-solid fa-cubes-stacked"></i>
                                 <span>UMKM Kreatif</span>
@@ -661,15 +632,14 @@
                             </a>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
 
         <!-- 5. CONTACT SECTION -->
-        <section id="contact" class="scroll-mt-24 max-w-4xl mx-auto pb-12">
+        <section id="contact" class="scroll-mt-24 max-w-7xl mx-auto pb-12 w-full">
             <div
-                class="bg-gradient-to-br from-brand-cardBg to-slate-950 border border-brand-border rounded-3xl p-8 lg:p-12 shadow-2xl relative overflow-hidden backdrop-blur-md">
+                class="w-full bg-gradient-to-br from-brand-cardBg to-slate-950 border border-brand-border rounded-3xl p-8 lg:p-12 shadow-2xl relative overflow-hidden backdrop-blur-md">
 
                 <!-- Background Gradient Circle Decoration -->
                 <div class="absolute -bottom-10 -right-10 w-40 h-40 bg-brand-accent/15 rounded-full blur-2xl"></div>
